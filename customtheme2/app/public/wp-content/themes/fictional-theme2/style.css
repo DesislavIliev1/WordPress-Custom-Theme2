@@ -196,7 +196,7 @@ nav ul li{
 }
 
 
-.footer{
+footer{
    
   left: 0;
   bottom: 0;
@@ -464,6 +464,45 @@ textarea:focus {
 .error{
     font-size: 40px;
     color:#9e0707;
+}
+
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    background-color: #c0c0c0;
+}
+.blog-body{
+    margin-left: 40px;
+    padding-top: 90px;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    
+}
+.blog-title{
+    display: flex;
+}
+
+.blog-image{
+    margin-top:10px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.blog-body{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.blog-text{
+    display: flex;
 }
 
 @media only screen and (max-width: 768px) {
